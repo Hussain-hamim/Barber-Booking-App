@@ -65,3 +65,7 @@ npx expo start
 
 Watch the app demo here:
 ➡️ YouTube Demo Link
+
+# 📹 Web Demo
+
+[Click to preview web demo](https://barber-booking-app-chi.vercel.app/)
