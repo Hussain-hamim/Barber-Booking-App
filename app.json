@@ -16,9 +16,22 @@
       "output": "single",
       "favicon": "./assets/images/barber-app-logo.png"
     },
-    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "446cf189-6c5c-4874-be61-0beec3d47453"
+      }
+    },
+    "android": {
+      "package": "com.hussainhamim.barberbookingapp"
     }
   }
 }
