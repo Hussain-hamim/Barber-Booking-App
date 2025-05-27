@@ -1,23 +1,36 @@
 import React from 'react';
-import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, Image } from 'react-native';
-import { Camera, CreditCard as Edit2, MapPin, Mail, Phone, LogOut } from 'lucide-react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  SafeAreaView,
+  TouchableOpacity,
+  Image,
+} from 'react-native';
+import {
+  Camera,
+  CreditCard as Edit2,
+  MapPin,
+  Mail,
+  Phone,
+  LogOut,
+} from 'lucide-react-native';
 import { COLORS, FONTS, SHADOWS, SIZES } from '@/constants/theme';
 
 export default function ProfileScreen() {
   // Mock user data
   const user = {
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    phone: '+1 (555) 123-4567',
-    location: 'New York, NY',
-    avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    name: 'Hussain Hamim',
+    email: ' mohammadhussainafghan83@gmail.com',
+    phone: '+93 780338261',
+    location: 'Kabul, Afg',
+    avatar:
+      'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   };
 
   const ProfileMenuItem = ({ icon, title, subtitle, onPress }: any) => (
     <TouchableOpacity style={styles.menuItem} onPress={onPress}>
-      <View style={styles.menuIconContainer}>
-        {icon}
-      </View>
+      <View style={styles.menuIconContainer}>{icon}</View>
       <View style={styles.menuContent}>
         <Text style={styles.menuTitle}>{title}</Text>
         {subtitle && <Text style={styles.menuSubtitle}>{subtitle}</Text>}
@@ -30,7 +43,7 @@ export default function ProfileScreen() {
       <View style={styles.header}>
         <Text style={styles.title}>Profile</Text>
       </View>
-      
+
       <View style={styles.profileCard}>
         <View style={styles.avatarContainer}>
           <Image source={{ uri: user.avatar }} style={styles.avatar} />
@@ -38,7 +51,7 @@ export default function ProfileScreen() {
             <Camera size={16} color={COLORS.white} />
           </TouchableOpacity>
         </View>
-        
+
         <View style={styles.profileInfo}>
           <Text style={styles.profileName}>{user.name}</Text>
           <TouchableOpacity style={styles.editProfileButton}>
@@ -47,32 +60,32 @@ export default function ProfileScreen() {
           </TouchableOpacity>
         </View>
       </View>
-      
+
       <View style={styles.menuSection}>
         <Text style={styles.menuSectionTitle}>Personal Information</Text>
-        
-        <ProfileMenuItem 
+
+        <ProfileMenuItem
           icon={<MapPin size={20} color={COLORS.primary} />}
           title="Location"
           subtitle={user.location}
           onPress={() => {}}
         />
-        
-        <ProfileMenuItem 
+
+        <ProfileMenuItem
           icon={<Mail size={20} color={COLORS.primary} />}
           title="Email"
           subtitle={user.email}
           onPress={() => {}}
         />
-        
-        <ProfileMenuItem 
+
+        <ProfileMenuItem
           icon={<Phone size={20} color={COLORS.primary} />}
           title="Phone"
           subtitle={user.phone}
           onPress={() => {}}
         />
       </View>
-      
+
       <TouchableOpacity style={styles.logoutButton}>
         <LogOut size={20} color={COLORS.error} />
         <Text style={styles.logoutText}>Sign Out</Text>
