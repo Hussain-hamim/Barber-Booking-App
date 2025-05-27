@@ -61,11 +61,15 @@ npx expo start
  npm run dev
 ```
 
-# 📹 Demo Video
+# Demo Video
 
 Watch the app demo here:
-➡️ YouTube Demo Link
+➡️ [YouTube Demo Link](https://youtube.com/shorts/BuWMHm9NcwE?si=Abm9yA8xitxNbwCX)
 
-# 📹 Web Demo
+# Web Demo
 
 [Click to preview web demo](https://barber-booking-app-chi.vercel.app/)
+
+# App download
+
+[Click to download app](...)
