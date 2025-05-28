@@ -61,6 +61,10 @@ npx expo start
  npm run dev
 ```
 
+# PDF Submission 
+
+[Click here to view]([https://youtube.com/shorts/BuWMHm9NcwE?si=Abm9yA8xitxNbwCX](https://github.com/Hussain-hamim/Barber-Booking-App/blob/main/Submission-%20Barber%20Appointment%20Booking%20App.pdf))
+
 # Demo Video
 
 Watch the app demo here:
