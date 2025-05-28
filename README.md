@@ -72,4 +72,4 @@ Watch the app demo here:
 
 # App download
 
-[Click to download app](...)
+[Click to download app](https://expo.dev/artifacts/eas/xmoakCJ68KMZQBdwSF5xXD.apk)
