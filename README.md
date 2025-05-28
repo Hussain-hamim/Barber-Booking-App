@@ -63,7 +63,7 @@ npx expo start
 
 # PDF Submission 
 
-[Click here to view](https://youtube.com/shorts/BuWMHm9NcwE?si=Abm9yA8xitxNbwCX](https://github.com/Hussain-hamim/Barber-Booking-App/blob/main/Submission-%20Barber%20Appointment%20Booking%20App.pdf)
+[Click here to view](https://github.com/Hussain-hamim/Barber-Booking-App/blob/main/Submission-%20Barber%20Appointment%20Booking%20App.pdf)
 
 # Demo Video
 
